@@ -15,9 +15,9 @@ sex = 1 if sex == "male" else 0
 
 input_data = pd.DataFrame({
     "Pclass": [pclass],
-    "Sex": [sex],
     "Age": [age],
-    "Fare": [fare]
+    "Fare": [fare],
+    "Sex_male": [sex]
 })
 
 if st.button("Predict"):
